@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+    <!-- Carregamento do CSS do AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #1e90ff;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #1e90ff;
+            color: white;
+            border-radius: 5px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 10px;
+            background-color: #ffffff; /* Adicionei cor de fundo para as seções */
+        }
+
+        h1,
+        h2 {
+            color: #ff4500;
+            text-align: center;
+        }
+
+        img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        .character-img {
+            max-width: 100px;
+            border-radius: 10px;
+        }
+
+        .div-video {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e90ff;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            img {
+                max-width: 120px;
+            }
+
+            .div-video iframe {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>One Piece</h1>
+    </header>
+
+    <nav>
+        <a href="#resumo-anime">Resumo do Anime</a>
+        <a href="#personagens-principais">Personagens Principais</a>
+        <a href="#arcos-principais">Arcos Principais</a>
+        <a href="#contactos">Contactos</a>
+    </nav>
+
+    <section id="resumo-anime" data-aos="fade-up">
+        <h2>Resumo do Anime</h2>
+        <p>One Piece é um anime baseado no mangá de mesmo nome, criado por Eiichiro Oda. A história segue as aventuras
+            de Monkey D. Luffy e sua tripulação de piratas enquanto procuram pelo lendário tesouro, One Piece.</p>
+    </section>
+
+    <hr>
+
+    <section id="personagens-principais" data-aos="fade-right">
+        <h2>Personagens Principais</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://tm.ibxk.com.br/2023/08/11/11115057865090.jpg" alt="Monkey D. Luffy"
+                            class="character-img"></td>
+                    <td>Monkey D. Luffy</td>
+                    <td>Capitão dos Piratas do Chapéu de Palha, que possui habilidades elásticas após comer a Fruta do
+                        Diabo Gomu Gomu.</td>
+                </tr>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9jtd9HicmGEZeml2ATUntpWmdOAEd8h_6Aw&s"
+                            alt="Roronoa Zoro" class="character-img"></td>
+                    <td>Roronoa Zoro</td>
+                    <td>Espadachim da tripulação, conhecido por usar três espadas em combate.</td>
+                </tr>
+                <tr>
+                    <td><img src="https://gear5world.com/cdn/shop/articles/nami_one_piece_navigatrice_fille_jolie.jpg?v=1698941591"
+                            alt="Nami" class="character-img"></td>
+                    <td>Nami</td>
+                    <td>Navegadora dos Piratas do Chapéu de Palha, especializada em cartografia e navegação.</td>
+                </tr>
+                <tr>
+                    <td><img src="https://tm.ibxk.com.br/ms/images/highlights/000/053/998/50707.jpg?ims=750x"
+                            alt="Sanji" class="character-img"></td>
+                    <td>Sanji</td>
+                    <td>Cozinheiro da tripulação, conhecido pelas suas habilidades culinárias e de combate com
+                        pontapés.</td>
+                </tr>
+                <tr>
+                    <td><img src="https://pm1.aminoapps.com/7786/4627af57bfa6d4287db1cdb3a70d9cd29b6158c6r1-554-554v2_00.jpg"
+                            alt="Usopp" class="character-img"></td>
+                    <td>Usopp</td>
+                    <td>Atirador da tripulação, conhecido pelas suas histórias exageradas e habilidades no uso de
+                        fisga.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="arcos-principais" data-aos="fade-left">
+        <h2>Arcos Principais</h2>
+        <ul>
+            <li>Arco de East Blue: Introdução das personagens principais e as suas primeiras aventuras.</li>
+            <li>Arco de Alabasta: Luta contra a Baroque Works e o resgate do reino de Alabasta.</li>
+            <li>Arco de Skypiea: Exploração da ilha do céu e a batalha contra Enel.</li>
+            <li>Arco de Enies Lobby: Resgate de Nico Robin das mãos do Governo Mundial.</li>
+            <li>Arco de Marineford: Grande guerra entre os piratas e a Marinha para resgatar Ace.</li>
+            <li>Arco de Dressrosa: Batalha contra Doflamingo e a libertação do reino de Dressrosa.</li>
+            <li>Arco de Wano: Luta contra Kaido e os seus aliados em Wano.</li>
+        </ul>
+    </section>
+
+    <div class="div-video" data-aos="fade-up">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pWFNN2y4MmE?si=lgPdg-rk-Nn0n6h9"
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        &copy; 2024 One Piece Fansite. Todos os direitos reservados.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
